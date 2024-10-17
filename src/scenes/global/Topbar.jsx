@@ -4,10 +4,10 @@ import { useContext, useState } from "react";
 import { colorModeContext, tokens } from "../../theme.js";
 import InputBase from "@mui/material/InputBase";
 import LightModeOutLinedIcon from "@mui/icons-material/LightModeOutlined";
-import DarkModeOutLinedIcon from "@mui/icons-material/DarkModeOutLined";
-import NotificationsOutLinedIcon from "@mui/icons-material/NotificationsOutLined";
-import SettingsOutLinedIcon from "@mui/icons-material/SettingsOutLined";
-import PersonOutLinedIcon from "@mui/icons-material/PersonOutLined";
+import DarkModeOutLinedIcon from "@mui/icons-material/DarkModeOutlined";
+import NotificationsOutLinedIcon from "@mui/icons-material/NotificationsOutlined";
+import SettingsOutLinedIcon from "@mui/icons-material/SettingsOutlined";
+import PersonOutLinedIcon from "@mui/icons-material/PersonOutlined";
 import SearchIcon from "@mui/icons-material/Search";
 
 const Topbar = () => {
