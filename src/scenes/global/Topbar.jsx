@@ -3,7 +3,7 @@ import { Box, IconButton, useTheme, Menu, MenuItem } from "@mui/material";
 import { useContext, useState } from "react";
 import { colorModeContext, tokens } from "../../theme.js";
 import InputBase from "@mui/material/InputBase";
-import LightModeOutLinedIcon from "@mui/icons-material/LightModeOutLined";
+import LightModeOutLinedIcon from "@mui/icons-material/LightModeOutlined";
 import DarkModeOutLinedIcon from "@mui/icons-material/DarkModeOutLined";
 import NotificationsOutLinedIcon from "@mui/icons-material/NotificationsOutLined";
 import SettingsOutLinedIcon from "@mui/icons-material/SettingsOutLined";
