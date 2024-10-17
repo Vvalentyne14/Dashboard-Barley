@@ -3,11 +3,11 @@ import { Box, IconButton, useTheme, Menu, MenuItem } from "@mui/material";
 import { useContext, useState } from "react";
 import { colorModeContext, tokens } from "../../theme.js";
 import InputBase from "@mui/material/InputBase";
-import LightModeOutLinedIcon from "@mui/icons-material/LightModeOutlined";
-import DarkModeOutLinedIcon from "@mui/icons-material/DarkModeOutlined";
-import NotificationsOutLinedIcon from "@mui/icons-material/NotificationsOutlined";
-import SettingsOutLinedIcon from "@mui/icons-material/SettingsOutlined";
-import PersonOutLinedIcon from "@mui/icons-material/PersonOutlined";
+import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
+import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
+import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined";
+import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
+import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import SearchIcon from "@mui/icons-material/Search";
 
 const Topbar = () => {
@@ -51,15 +51,15 @@ const Topbar = () => {
       <Box display="flex">
         <IconButton onClick={colorMode.toggleColorMode} aria-label="Toggle light/dark mode" title="light">
           {theme.palette.mode === "dark" ? (
-            <DarkModeOutLinedIcon />
+            <DarkModeOutlinedIcon />
           ) : (
-            <LightModeOutLinedIcon />
+            <LightModeOutlinedIcon />
           )}
         </IconButton>
 
         {/* Notifications Icon with Dropdown */}
         <IconButton onClick={handleNotifClick} aria-label="Open notifications" title="notifications">
-          <NotificationsOutLinedIcon />
+          <NotificationsOutlinedIcon />
         </IconButton>
         <Menu
           anchorEl={notifAnchorEl}
@@ -71,12 +71,12 @@ const Topbar = () => {
 
         {/* Settings Icon */}
         <IconButton aria-label="Settings" title="settings">
-          <SettingsOutLinedIcon />
+          <SettingsOutlinedIcon />
         </IconButton>
 
         {/* User Icon with Dropdown */}
         <IconButton onClick={handleProfileClick} aria-label="Open profile menu" title="Profile menu">
-          <PersonOutLinedIcon />
+          <PersonOutlinedIcon />
         </IconButton>
         <Menu
           anchorEl={profileAnchorEl}
